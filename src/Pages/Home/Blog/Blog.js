@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import Service from '../Service/Service';
+import service from '../Service/Service';
+import "./blog.css";
 
 
 const Blog = () => {
-    const { name, description, id } = Service;
+    const { name, description, id } = service;
 
 
     return (
