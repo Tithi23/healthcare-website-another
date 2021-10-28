@@ -7,11 +7,11 @@ import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-import Blog from './Pages/Home/Blog/Blog';
 import Register from './Pages/Register/Register';
 import Footer from './Pages/Footer/Footer';
 import Services from './Pages/Home/Services/Services';
 import Experts from './Pages/Home/Experts/Experts';
+import Blog from './Pages/Home/Blog/Blog';
 
 
 function App() {

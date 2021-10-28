@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import Service from '../Service/Service';
 
 
-const Details = () => {
+const Blog = () => {
     const { name, description, id } = Service;
-    const { serviceId, serviceName, serviceDescription } = useParams();
+
 
     return (
         <div className="details-container mb-5">
@@ -50,4 +50,4 @@ const Details = () => {
     );
 };
 
-export default Details;
+export default Blog;
